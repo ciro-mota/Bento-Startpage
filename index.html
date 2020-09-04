@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>🍱&nbsp;&nbsp;Nova aba</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+        <script src="js/quote.js"></script>
+        <script src="js/wallpaper.js"></script>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="hour">
+                <div id="greetings"></div>
+                <div class="secon__date">                    
+                </div>
+                <div class="secon__weather">
+                    <div class="weather-icon">
+                        <img src="icons/unknown.png" />
+                    </div>
+                    <div class="temperature-value">
+                    </br>
+                    </br>    
+                        <p>- °<span>c</span></p>
+                    </div>
+                    <div class="temperature-description">
+                    </br>
+                    </br>
+                        <p></p>
+                    </div>
+                </div>               
+            </div>
+            <div class="secon">
+                <div class='quote-description'>
+                    <p id='random_quote'></p>
+                  </div>
+            </div>
+            <div class="qlink">
+                <a href="https://github.com/" target="_self" class="qlink__link qlink__link-1">
+                    <i class="fab fa-github fa-5x"></i>
+                </a>
+                <a href="https://twitter.com/" target="_self" class="qlink__link qlink__link-2">
+                    <i class="fab fa-twitter fa-5x"></i>
+                </a>
+                <a href="https://linkedin.com/" target="_self" class="qlink__link qlink__link-3">
+                    <i class="fab fa-linkedin-in fa-5x"></i>
+                </a>
+                <a href="https://www.youtube.com/" target="_self" class="qlink__link qlink__link-4">
+                    <i class="fab fa-youtube fa-5x"></i>
+                </a>
+                <a href="https://hub.docker.com/" target="_self" class="qlink__link qlink__link-5">
+                    <i class="fab fa-docker fa-5x"></i>
+                </a>                
+                <a href="https://192.168.0.1/" target="_self" class="qlink__link qlink__link-6">
+                    <i class="fas fa-wifi fa-5x"></i>
+                </a>                
+            </div>           
+        </div>
+        <script src="js/weather.js"></script>
+        <script src="js/greeting.js"></script>
+        <script>
+            feather.replace();
+        </script>
+    </body>
+</html>
