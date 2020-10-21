@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
 :root {
   --fsg: 150px;
   --fsm: 85px;
@@ -16,7 +18,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Proxima nova', monospace;
+  font-family: 'Open Sans', sans-serif;
   color: var(--fg);
   font-size: 13.5px;
   transition: 0.2s ease-in-out; }
