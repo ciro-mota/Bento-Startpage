@@ -63,14 +63,9 @@ In the CSS code you can always change the variables colors:
 
 ![](assets/code.png)
 
-### Weather:
-
-In line 16 of the `weather.js` file, insert your API from OpenWeatherMap.   
-In line 24 and 25 of the `weather.js`, change your cordinate location.
-
 ### Weather Info:
 
-For setting up the Weather widget you're going to need an API Key in: `https://openweathermap.org/`. Once you have your Key you'll need to set yourlatitude and longitude, you can use: `https://www.latlong.net/` to get them. Once you have the data, you'll need to set them in the `weather.js` in the **js** folder. The code is
+For setting up the Weather widget you're going to need an API Key in: `https://openweathermap.org/`. Once you have your Key you'll need to set yourlatitude and longitude, you can use: `https://www.latlong.net/` to get them. Once you have the data, you'll need to set them in the `weather.js` file in the lines 16 and 24, in the **js** folder.
 
 > If you don't like to have your API Key public, you can make the repo into a private one. You can still use the Github Pages service.
 
